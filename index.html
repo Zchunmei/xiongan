@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>用工评价</title>
+		<link rel="stylesheet" type="text/css" href="css/assess_user_01.css"/>
+		<link rel="stylesheet" type="text/css" href="css/assess_user_02.css"/>
+		<link rel="stylesheet" type="text/css" href="css/assess_user_03.css"/>
+		<script src="js/lcRem.js" type="text/javascript" charset="utf-8"></script>
+
+	</head>
+	<body>
+		
+		
+		<!--头部-->
+		<div class="header">
+			<div class="Icon">
+				<div class="Text">我要评价</div>
+			</div>
+		</div>
+		
+		
+		
+		<!--导航-->
+		<div class="nav">
+			<div class="Text1">收到的评价</div>
+			<div class="Text2">我发起的评价</div>
+			<div class="Text3">法律维权</div>
+		</div>
+		
+		
+		
+		
+		<!--内容  --收到的评价-->
+		<div class="Div1">
+			<div class="ItemIcon1">
+				<div class="Icon">
+					<div class="Top">
+						<div class="Text">
+							<div class="text1">干活不认真</div>
+							<div class="text2">广东建粤工程有限公司   </div>
+						</div>
+						<div class="Img"></div>
+					</div>
+					<div class="Text1">2017-10-11 </div>
+				</div>
+				<div class="Icon">
+					<div class="Top">
+						<div class="Text">
+							<div class="text1">私生活不检点</div>
+							<div class="text2">广东建粤工程有限公司   </div>
+						</div>
+						<div class="Img"></div>
+					</div>
+					<div class="Text1">2017-10-11</div>
+				</div>
+				<div class="Icon">
+					<div class="Top">
+						<div class="Text">
+							<div class="text1">态度棒棒的</div>
+							<div class="text2">广东建粤工程有限公司   </div>
+						</div>
+						<div class="Img"></div>
+					</div>
+					<div class="Text1">2017-10-11</div>
+				</div>
+				<div class="Icon">
+					<div class="Top">
+						<div class="Text">
+							<div class="text1">态度还不错</div>
+							<div class="text2">广东建粤工程有限公司   </div>
+						</div>
+						<div class="Img"></div>
+					</div>
+					<div class="Text1">2017-10-11</div>
+				</div>
+			</div>
+		    <div class="IconList"></div>	
+		</div>
+		
+		
+		
+		
+		<!--内容--我发起的评价-->
+		<div class="Div2">
+			<div class="itemicon2">
+				<div class="iconlist">
+					<div class="top">
+						<div class="left">
+							<div class="title">饭不好吃</div>
+							<div class="content">广东建粤工程有限公司   </div>
+						</div>
+						<div class="logo"></div>
+					</div>
+					<div class="bottom">
+						<div class="image">
+							<div class="img1"></div>
+							<div class="img2"></div>
+						</div>
+						<div class="date">2018-4-20  17：10</div>
+					</div>
+				</div>
+				<div class="iconlist">
+					<div class="top">
+						<div class="left">
+							<div class="title">今天的饭菜很好吃</div>
+							<div class="content">广东建粤工程有限公司   </div>
+						</div>
+						<div class="Logo">
+							<div class="logo1"></div>
+							<div class="time">00：54</div>
+						</div>
+					</div>
+					<div class="bottom">
+						<div class="image">
+							<div class="img1"></div>
+							<div class="img2"></div>
+						</div>
+						<div class="date">2018-4-20  17：10</div>
+					</div>
+				</div>
+			</div>
+			<div class="iconlist">
+			    <div class="buttom">
+				    <div class="img"></div>
+				    <div class="text">添加评价</div>
+			    </div>
+			</div>   
+		</div>
+		
+		
+		
+		<!--内容--法律维权-->
+		<div class="Div3">
+			<div class="Content">
+				<div class="text1"> 
+					如果您需要帮助如拖欠工资款,工伤赔付,安全保险...请联系我们,我们会为您竭尽全力!!!
+				</div>
+				<div class="iconlist1">
+				    <div class="buttom1">
+					    <div class="text2">一键咨询</div>
+				    </div>
+				</div>
+			</div>
+		</div>
+		
+		
+		
+		
+		<script type="text/javascript">
+			
+			var btn = document.querySelector('.buttom1')
+			var body = document.querySelector('body')
+			var Div1btn = document.querySelector('.Text1')
+			var Div2btn = document.querySelector('.Text2')
+			var Div3btn = document.querySelector('.Text3')
+			var Div1 = document.querySelector('.Div1')
+			var Div2 = document.querySelector('.Div2')
+			var Div3 = document.querySelector('.Div3')
+			var alertDiv = null
+			
+			btn.onclick = function(){
+				alertDiv = document.createElement('div')
+				alertDiv.className = "alertContain"
+				alertDiv.style.width = '100%';
+				alertDiv.style.height = '100%';
+				alertDiv.style.position = 'fixed';
+				alertDiv.style.top = '0';
+				alertDiv.style.left = '0';
+				alertDiv.style.background = 'rgba(0,0,0,0.5)'
+				
+				alertDiv.innerHTML = `
+				<div class="alert">
+					<div class="tel">400  830  8339</div>
+					<div class="alertbtn">
+						<div class="leftbtn">取消</div>
+						<div class="rightbtn">呼叫</div>
+					</div>
+				</div>
+				`
+				
+				body.appendChild(alertDiv)
+				
+				
+				var leftbtn = document.querySelector('.leftbtn')
+				leftbtn.onclick = function(){
+					alertDiv.parentElement.removeChild(alertDiv)
+				}
+
+			}
+			
+			Div1btn.onclick = function(){
+				Div2.style.display = 'none';
+				Div3.style.display = 'none'
+				Div1.style.display = 'block'
+				Div1btn.style.borderBottom = '0.04rem solid #B22329';
+				Div2btn.style.borderBottom = '0'
+				Div3btn.style.borderBottom = '0'
+			}
+			Div2btn.onclick = function(){
+				Div2.style.display = 'block';
+				Div3.style.display = 'none'
+				Div1.style.display = 'none'
+				Div2btn.style.borderBottom = '0.04rem solid #B22329';
+				Div1btn.style.borderBottom = '0'
+				Div3btn.style.borderBottom = '0'
+			}
+			Div3btn.onclick = function(){
+				Div2.style.display = 'none';
+				Div3.style.display = 'block'
+				Div1.style.display = 'none'
+				Div3btn.style.borderBottom = '0.04rem solid #B22329';
+				Div1btn.style.borderBottom = '0'
+				Div2btn.style.borderBottom = '0'
+			}
+
+
+			console.log(Div1btn)
+			
+		</script>
+		
+		
+		
+		<!--底部信息栏-->
+		<div class="footer">
+			<div class="ItemIcon">
+				<div class="Icon"></div>
+				<div class="Text">首页</div>
+			</div>
+			<div class="ItemIcon">
+				<div class="Icon"></div>
+				<div class="Text">工作履历</div>
+			</div>
+			<div class="ItemIcon">
+				<div class="Icon"></div>
+				<div class="Text">用工评价</div>
+			</div>
+			<div class="ItemIcon">
+				<div class="Icon"></div>
+				<div class="Text">我的</div>
+			</div>
+		</div>
+
+	</body>
+</html>
