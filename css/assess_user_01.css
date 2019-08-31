@@ -1,0 +1,258 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	padding-bottom: 1.21rem;
+}
+
+
+
+/*头部*/
+.header{
+	width: 10.04rem;
+	height: 1.27rem;
+}
+.header .Icon{
+	width: 10.04rem;
+	height: 1.27rem;
+	background-color: #fafafa;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 0.04rem;
+}
+.header .Icon .Text{
+/*	width: 2rem;*/
+	height: 0.49rem;
+	font-family: MicrosoftYaHei;
+	font-size: 0.5rem;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0rem;
+	color: #393939;
+}
+
+
+/*.Div1{
+	display: none;
+}*/
+/*导航*/
+.nav{
+	width: 10.04rem;
+	height: 0.52rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0.46rem 0 0.04rem;
+	padding: 0.84rem ;
+}
+.nav .Text1{
+	/*width: 2.8rem;*/
+	height: 0.52rem;
+	font-family: MicrosoftYaHei;
+	font-size: 0.38rem;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0rem;
+	color: #393939;
+/*	padding-left: 0.84rem;*/
+	border-bottom: 0.04rem solid #B22329 ;
+}
+.nav .Text2{
+	/*width: 2.3rem;*/
+	height: 0.52rem;
+	font-family: MicrosoftYaHei;
+	font-size: 0.38rem;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0rem;
+	color: #393939;
+}
+.nav .Text3{
+	/*width: 1.6rem;*/
+	height: 0.52rem;
+	font-family: MicrosoftYaHei;
+	font-size: 0.38rem;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0rem;
+	color: #393939;
+	/*padding-right: 1.08rem;*/
+}
+
+
+
+
+/*内容*/
+.ItemIcon1{
+	width: 10.04rem;
+	height: 13.1rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: fixed;
+	top: 3.15rem;
+	margin-bottom: 0.71rem;
+}
+.ItemIcon1 .Icon{
+	width: 9.54rem;
+	height: 2.61rem;
+	background-color: #f7f7f7;
+	border-radius: 0.06rem;
+	margin-top: 0.64rem;
+	box-shadow: 0rem 0rem 0.10rem 0rem rgba(44, 44, 44, 0.35);
+}
+.ItemIcon1 .Icon .Top{
+	width: 9.54rem;
+	height: 1.73rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-left: 0.39rem;
+	
+}
+.ItemIcon1 .Icon:nth-child(2) .Top{
+	border-bottom: 0.02rem solid rgba(44, 44, 44, 0.38);
+}
+.ItemIcon1 .Icon:nth-child(4) .Top{
+	border-bottom: 0.02rem solid rgba(44, 44, 44, 0.38);
+}
+.ItemIcon1 .Icon .Top .Text{
+	display: flex;
+	flex-direction: column;
+	/*align-items: center;*/
+}
+.ItemIcon1 .Icon .Top .Text .text1{
+	font-family: MicrosoftYaHei;
+	font-size: 0.42rem;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0rem;
+	color: #b22329;
+}
+.ItemIcon1 .Icon .Top .Text .text2{
+	font-family: MicrosoftYaHei;
+	font-size: 0.29rem;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0rem;
+	color: #737373;
+	padding-top: 0.10rem;
+}
+.ItemIcon1 .Icon .Top .Img{
+	width: 1.08rem;
+	height: 1.065rem;
+	background-image: url(../img/assess_user_01.png);
+	background-size: 100% auto;
+    margin-right: 0.28rem;
+}
+.ItemIcon1 .Icon:nth-child(3) .Top .Img{
+	width: 1.08rem;
+	height: 1.065rem;
+	background-image: url(../img/assess_user_02.png);
+	background-size: 100% auto;
+    margin-right: 0.28rem;
+}
+.ItemIcon1 .Icon:nth-child(4) .Top .Img{
+	width: 1.08rem;
+	height: 1.065rem;
+	background-image: url(../img/assess_user_03.png);
+	background-size: 100% auto;
+    margin-right: 0.28rem;
+}
+.ItemIcon1 .Icon .Text1{
+	/*width: 9.54rem;
+	height: 0.84rem;*/
+	font-family: MicrosoftYaHei;
+	font-size: 0.29rem;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0rem;
+	color: #737070;
+	padding-left: 0.39rem;
+	padding-top: 0.25rem;
+	/*display: flex;
+	align-items: center;*/
+}
+.IconList{
+	width: 1.67rem;
+	height: 1.67rem;
+	background-color: #b22329;
+	box-shadow: 0rem 0rem 0.32rem 0rem rgba(44, 44, 44, 0.38);
+	border-radius: 50%;
+	background-image: url(../img/assess_user_04.png);
+	background-size: 50% auto;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	position: fixed;
+	left: 3.98rem;
+	top: 14.7rem;
+}
+
+
+
+/*底部信息栏*/
+.footer {
+	position: fixed;
+    bottom: 0;
+    left: 0;
+    display: flex;
+	width: 10.04rem;
+	height: 1.21rem;
+	background-color: #f7f7f7;
+	box-shadow: 0rem 0rem 0.21rem 0rem rgba(44, 44, 44, 0.38);
+}
+.footer .ItemIcon{
+	flex: 1;
+	height: 1.21rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.footer .ItemIcon .Icon{	
+	width: 0.43rem;
+	margin-top: 0.05rem;
+	margin-bottom: 0.15rem;
+	background-size: 100% auto;
+}
+.footer .ItemIcon:nth-child(1) .Icon{
+	height: 0.49rem;
+	background-image: url(../img/indexbottom_01.png);
+	background-size: 100% auto;
+
+}
+.footer .ItemIcon:nth-child(2) .Icon{
+	height: 0.41rem;
+	background-image: url(../img/indexbotton_02.gif);
+	background-size: 100% auto;
+	
+}
+.footer .ItemIcon:nth-child(3) .Icon{
+	height: 0.43rem;
+	background-image: url(../img/indexbottom_04.png);
+	background-size: 100% auto;
+	
+}
+.footer .ItemIcon:nth-child(4) .Icon{
+	height: 0.43rem;
+	background-image: url(../img/indexbotton_04.gif);
+	background-size: 100% auto;
+	
+}
+.footer .ItemIcon .Text {
+	font-family: MicrosoftYaHei;
+	font-size: 0.29rem;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0rem;
+	color: #6e6e6e;
+}
+.footer .ItemIcon:nth-child(3) .Text{
+	color: #b22329;
+}
+
+

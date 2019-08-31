@@ -1,0 +1,166 @@
+
+
+.Div2{
+	width: 10.04rem;
+	height: 10.83rem;
+	display: none;
+	position: fixed;
+	top: 3.15rem;
+}
+
+/*我发起的评价*/
+.Div2 .itemicon2{
+	width: 10.04rem;
+	height: 10.83rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	
+}
+.itemicon2 .iconlist{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 9.54rem;
+	height: 4.61rem;
+	background-color: #f7f7f7;
+	border-radius: 0.06rem;
+	margin-top: 0.79rem;
+	/*margin-left: 0.25rem;*/
+	box-shadow: 0rem 0rem 0.10rem 0rem rgba(44, 44, 44, 0.35);
+}
+.itemicon2 .iconlist .top{
+	width: 9.54rem;
+	height: 1.73rem;
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 0.02rem solid rgba(44, 44, 44, 0.38);
+}
+.itemicon2 .iconlist .top .title{
+	/*width: 1.67rem;*/
+	height: 0.41rem;
+	font-family: MicrosoftYaHei;
+	font-size: 0.42rem;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0rem;
+	color: #b22329;
+	margin-left: 0.39rem;
+	margin-top: 0.38rem;
+}
+.itemicon2 .iconlist .top .content{
+	/*width: 2.9rem;*/
+	height: 0.3rem;
+	font-family: MicrosoftYaHei;
+	font-size: 0.29rem;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0rem;
+	color: #737373;
+	margin-left: 0.39rem;
+	margin-top: 0.23rem;
+}
+.itemicon2 .iconlist .top .logo{
+	width: 0.5rem;
+	height: 0.63rem;
+	background-image: url(../img/assessuser_01.png);
+	background-size: 100% auto;
+	margin-right: 1.62rem;
+	margin-top: 0.54rem;
+}
+ .itemicon2 .iconlist .top .Logo{
+ 	display: flex;
+ 	justify-content: space-around;
+ 	align-items: center;
+}
+.itemicon2 .iconlist .top .logo1{
+	width: 0.46rem;
+	height: 0.64rem;
+	background-image: url(../img/assessuser_04.png);
+	background-size: 100% auto;
+}
+ .itemicon2 .iconlist .top .time{
+	font-family: MicrosoftYaHei;
+	font-size: 0.33rem;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0rem;
+	color: #b22329;
+	padding-left: 0.25rem;
+	padding-right: 0.23rem;
+}
+.itemicon2 .iconlist .bottom{
+	width: 9.54rem;
+	height: 2.86rem;
+	display: flex;
+	flex-direction: column;
+}
+.itemicon2 .iconlist .bottom .image{
+	width: 9.54rem;
+	height: 2.09rem;
+	display: flex;
+	margin-left: 0.39rem;
+}
+.itemicon2 .iconlist .bottom .image .img1{
+	width: 1.73rem;
+	height: 1.62rem;
+	background-image: url(../img/assessuser_03.png);
+	background-size: 100% auto;
+	margin-top: 0.49rem;
+}
+.itemicon2 .iconlist .bottom .image .img2{
+	width: 1.73rem;
+	height: 1.62rem;
+	background-image: url(../img/assessuser_02.png);
+	background-size: 100% auto;
+	margin-top: 0.49rem;
+	margin-left: 0.23rem;
+}
+.itemicon2 .iconlist .bottom .date{
+	font-family: MicrosoftYaHei;
+	font-size: 0.29rem;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0rem;
+	color: #737070;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	padding-right: 0.29rem;
+}
+
+.iconlist{
+	width: 10.04rem;
+	height: 2.98rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.iconlist .buttom{
+	width: 3.81rem;
+	height: 0.86rem;
+	background-color: #b22329;
+	border-radius: 0.43rem;
+	box-shadow: 0rem 0rem 0.30rem 0rem rgba(44, 44, 44, 0.35);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.iconlist .buttom .img{
+	width: 0.49rem;
+	height: 0.49rem;
+	background-image: url(../img/assessuser_05.png);
+	background-size: 100% auto;
+	margin-right: 0.2rem;
+}
+.iconlist .buttom .text{
+	font-family: MicrosoftYaHei;
+	font-size: 0.42rem;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0rem;
+	color: #ffffff;
+}
+

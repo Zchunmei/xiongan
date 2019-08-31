@@ -1,0 +1,114 @@
+
+.Div3{
+	display: none;
+	position: fixed;
+	top: 3.15rem;
+}
+.Content{
+	width: 10.04rem;
+	height: 5.76rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin-bottom: 8rem;
+}
+.Content .text1{
+	width: 8.62rem;
+	font-family: MicrosoftYaHei;
+	font-size: 0.29rem;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0rem;
+	color: #5d5d5d;
+	text-indent: 0.8rem;
+	line-height: 0.6rem;
+}
+.Content .iconlist1{
+	width: 10.04rem;
+	height: 2.98rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.Content .iconlist1 .buttom1{
+	width: 3.81rem;
+	height: 0.86rem;
+	background-color: #b22329;
+	border-radius: 0.43rem;
+	box-shadow: 0rem 0rem 0.30rem 0rem rgba(44, 44, 44, 0.35);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.Content .iconlist1 .buttom1 .text2{
+	font-family: MicrosoftYaHei;
+	font-size: 0.42rem;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0rem;
+	color: #ffffff;
+}
+
+.alertContain{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.alert{
+	width: 6.93rem;
+	height: 2.39rem;
+	background-color: #f8f8f8;
+	border-radius: 0.4rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.alert .tel{
+	height: 1.2rem;
+	font-family: MicrosoftYaHei-Bold;
+	font-size: 0.38rem;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0rem;
+	color: #3f3f3f;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-bottom: 0.02rem solid rgba(44, 44, 44, 0.38);
+}
+.alert .alertbtn{
+	width: 6.93rem;
+	height: 1.16rem;
+	display: flex;
+}
+.alert .alertbtn .leftbtn{
+	font-family: MicrosoftYaHei;
+	font-size: 0.38rem;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0rem;
+	color: #474747;
+	width: 3.46rem;
+	height: 1.16rem;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.alert .alertbtn .rightbtn{
+	width: 3.46rem;
+	height: 1.16rem;
+	font-family: MicrosoftYaHei;
+	font-size: 0.38rem;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0rem;
+	color: #474747;
+	border-left: 0.02rem solid rgba(44, 44, 44, 0.30);
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
